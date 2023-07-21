@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,800;0,900;1,200&display=swap');
+header{
+    position: fixed;
+    padding: 15px;
+    width: 20%;
+    z-index: 5;
+    text-align: center;
+    padding-left: 41%;
+    padding-right: 38%;
+    background-color:blue ;
+    height: 90px;
+    margin-top: -10px;
+}
+header h1{
+    text-transform: uppercase;
+    font-size: 2.4 rem;
+    font-weight: 1000;
+    border: solid 5px rgb(244, 244, 250);
+    display: inline-block;
+    padding: 1px 15px ;
+    border-radius: 32px;
+    color:white ;
+    background-color: blue;
+
+    
+}
+.welcome{
+    max-width: 100%; 
+    width: 1280px;
+    background-color:white;
+    position: relative;
+    margin: 9px auto;
+    height: 550px;
+    
+}
+.welcome img{
+    position: absolute;
+    top: 25%;
+    left: 80%;
+    width: 220px;
+    border-radius: 40%;
+    background-color: darkgray;
+    border-top-right-radius: 0;
+
+}
+.welcome h2{
+    font-size: 3rem ; 
+    text-transform: uppercase;
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    color: #333;
+
+}
+.welcome h2 span{
+    font-weight: bold;
+   color: rgb(0, 140, 255) ; 
+}
+nav{
+    position: sticky;
+    top: 118px;
+    margin: 25px auto;
+    background-color: darkgrey;
+    z-index: 15;
+    
+     }
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+}
+/*main content style*/
+main.main-content{
+    width: 100%;
+    max-width: 1000px;
+    margin:75px auto;
+}
+section h2{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: blue;
+
+}
+section p{
+    font-size: 1.4rem;
+
+}
+.images{
+    display: flex;
+    justify-content: space-evenly;
+}
+.images li{
+    list-style-type: none;
+    margin-right: 20px;
+}
+.image img{
+    width: 100%;
+    border: solid 3px #0673b2;
+    border-radius: 1rem;
+}
+div.services,.row{
+   display: flex; 
+   
+}
+.service-title img{
+width: 89px;
+margin-right: 15px;
+}
+div.service-title h3{
+font-size: 1.8rem;
+color: rgb(2, 2, 65);
+font-weight: bold;
+}
+.service-title{
+    display: flex;
+}
+.service{
+    margin-left: 15px;
+}
+form{
+    border: solid 2px #ddd;
+    width: 50%; 
+    padding: 25px;
+    border-radius: 2rem;
+    background-color: hsl(240, 93%, 74%);
+}
+form input[type='text'],form input[type='email'],form textarea{
+    padding: 8px;
+    font-size: 1.2rem;
+    width: 100%;
+    border: solid 1px #ddd;
+    margin: 6px 0;
+}
+form input[type='submit']{
+    font-size: 1.4rem;
+    font-weight:  bold;
+    text-transform: capitalize;
+    border: none;
+    background-color: #fff;
+    color: #0062ff;
+    padding: 15px 24px;
+    border-radius: 2rem;
+}
+.whatsapp{
+    display: flex;
+justify-content: center;
+justify-items: center;
+}
+.whatsapp img{
+    height: 40px ;
+justify-items: center;
+border-radius: 8px;
+}
+.whatsapp span.number{
+    font-size: 35px ;
+    font-weight: bold;
+    color: #0a0a0a;
+}
+div.form{
+    position: relative;
+}
+div.form form{
+    position: absolute;
+    top: 30%;
+    left: 50% ;
+}
+footer{
+    width: 100%;
+    background-color: #0062ff;
+    color: #fff;
+    margin-top: 70px;
+}
+footer p{
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 25px 0;
+}
+footer p a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
